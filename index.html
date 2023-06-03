@@ -1,17 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- title  -->
     <title>Document</title>
+    <!-- text font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    
+
+<body class="body">
+    <!-- header  -->
+    <header class="header">
+        <div class="container">
+            <!-- header parent -->
+            <div class="header-parent">
+                <!-- logo  -->
+                <a class="logo-link" href="index.html">
+                    <img src="./images/xy-logo.png" alt="xy-logo" class="header-logo-img">
+                </a>
+                <!-- hamburger btn -->
+                <button class="hamburger-btn">
+                    <img src="./images/menu-icon.svg" alt="menu-icon" class="menu-icon">
+                </button>
+                <!-- navbar menu  -->
+                <nav class="navbar-menu">
+                    <ul class="header-list">
+                        <li class="header-list-child">
+                            <a href="#">
+                                Bosh sahifa
+                            </a>
+                        </li>
+                        <li class="header-list-child">
+                            <a href="#">
+                                Ma'lumot
+                            </a>
+                        </li>
+                        <li class="header-list-child">
+                            <a href="#">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="header-list-child">
+                            <a href="#">
+                                Yordam
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- mobile navbar menu  -->
+                <div class="mobile-navbar-menu">
+                    <!-- top  -->
+                    <div class="mobile-navbar-menu-top">
+                        <!-- exit btn  -->
+                        <button class="exit-btn">
+                            <img src="./images/exit-icon.svg" alt="exit-icon" class="exit-icon">
+                        </button>
+                        Your company name
+                    </div>
+                    <!-- nav  -->
+                    <nav class="mobile-navbar">
+                        <ul class="mobile-header-list">
+                            <li class="header-list-child">
+                                <a href="#">
+                                    Bosh sahifa
+                                </a>
+                            </li>
+                            <li class="header-list-child">
+                                <a href="#">
+                                    Ma'lumot
+                                </a>
+                            </li>
+                            <li class="header-list-child">
+                                <a href="#">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="header-list-child">
+                                <a href="#">
+                                    Yordam
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- mobile night and light mode -->
+                    <button class="mobile-night-mode-btn">
+                        <span class="night-mode-text">Night mode</span>
+                        <span class="light-mode-text">Light mode</span>
+                    </button>
+                </div>
+                <!-- night and light mode -->
+                <button class="night-mode-btn">
+                    <span class="night-mode-text">Night mode</span>
+                    <span class="light-mode-text">Light mode</span>
+                </button>
+            </div>
+        </div>
+    </header>
     <!-- JS -->
     <script src="./script.js"></script>
 </body>
+
 </html>
