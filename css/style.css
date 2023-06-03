@@ -108,7 +108,7 @@ a {
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: 0;
+    z-index: 1;
 }
 @keyframes blur-filter-active-animation {
     0%{
@@ -250,8 +250,6 @@ a {
 }
 .footer-title {
     color: #00ccff;
-}
-.footer-second-child {
 }
 .footer-list {
     display: flex;
